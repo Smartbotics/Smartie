@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3E8BC01C40A6A9005FBA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E8BBF1C40A6A9005FBA82 /* AppDelegate.swift */; };
+		AE3E8BC21C40A6A9005FBA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E8BC11C40A6A9005FBA82 /* ViewController.swift */; };
+		AE3E8BC71C40A6A9005FBA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3E8BC61C40A6A9005FBA82 /* Assets.xcassets */; };
+		AE3E8BD51C40A6A9005FBA82 /* SmartieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E8BD41C40A6A9005FBA82 /* SmartieTests.swift */; };
+		AE3E8BE01C40A6A9005FBA82 /* SmartieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E8BDF1C40A6A9005FBA82 /* SmartieUITests.swift */; };
+		AE3E8BEE1C40A6D3005FBA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E8BED1C40A6D3005FBA82 /* Main.storyboard */; };
+		AE3E8BF01C40A71F005FBA82 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E8BEF1C40A71F005FBA82 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE3E8BD11C40A6A9005FBA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE3E8BB41C40A6A9005FBA82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3E8BBB1C40A6A9005FBA82;
+			remoteInfo = Smartie;
+		};
+		AE3E8BDC1C40A6A9005FBA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE3E8BB41C40A6A9005FBA82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3E8BBB1C40A6A9005FBA82;
+			remoteInfo = Smartie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE3E8BBC1C40A6A9005FBA82 /* Smartie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3E8BBF1C40A6A9005FBA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE3E8BC11C40A6A9005FBA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE3E8BC61C40A6A9005FBA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE3E8BCB1C40A6A9005FBA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3E8BD01C40A6A9005FBA82 /* SmartieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3E8BD41C40A6A9005FBA82 /* SmartieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartieTests.swift; sourceTree = "<group>"; };
+		AE3E8BD61C40A6A9005FBA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3E8BDB1C40A6A9005FBA82 /* SmartieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3E8BDF1C40A6A9005FBA82 /* SmartieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartieUITests.swift; sourceTree = "<group>"; };
+		AE3E8BE11C40A6A9005FBA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3E8BED1C40A6D3005FBA82 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AE3E8BEF1C40A71F005FBA82 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3E8BB91C40A6A9005FBA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3E8BCD1C40A6A9005FBA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3E8BD81C40A6A9005FBA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3E8BB31C40A6A9005FBA82 = {
+			isa = PBXGroup;
+			children = (
+				AE3E8BBE1C40A6A9005FBA82 /* Smartie */,
+				AE3E8BD31C40A6A9005FBA82 /* SmartieTests */,
+				AE3E8BDE1C40A6A9005FBA82 /* SmartieUITests */,
+				AE3E8BBD1C40A6A9005FBA82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3E8BBD1C40A6A9005FBA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E8BBC1C40A6A9005FBA82 /* Smartie.app */,
+				AE3E8BD01C40A6A9005FBA82 /* SmartieTests.xctest */,
+				AE3E8BDB1C40A6A9005FBA82 /* SmartieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3E8BBE1C40A6A9005FBA82 /* Smartie */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E8BEF1C40A71F005FBA82 /* Launch Screen.storyboard */,
+				AE3E8BED1C40A6D3005FBA82 /* Main.storyboard */,
+				AE3E8BBF1C40A6A9005FBA82 /* AppDelegate.swift */,
+				AE3E8BC11C40A6A9005FBA82 /* ViewController.swift */,
+				AE3E8BC61C40A6A9005FBA82 /* Assets.xcassets */,
+				AE3E8BCB1C40A6A9005FBA82 /* Info.plist */,
+			);
+			path = Smartie;
+			sourceTree = "<group>";
+		};
+		AE3E8BD31C40A6A9005FBA82 /* SmartieTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E8BD41C40A6A9005FBA82 /* SmartieTests.swift */,
+				AE3E8BD61C40A6A9005FBA82 /* Info.plist */,
+			);
+			path = SmartieTests;
+			sourceTree = "<group>";
+		};
+		AE3E8BDE1C40A6A9005FBA82 /* SmartieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E8BDF1C40A6A9005FBA82 /* SmartieUITests.swift */,
+				AE3E8BE11C40A6A9005FBA82 /* Info.plist */,
+			);
+			path = SmartieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3E8BBB1C40A6A9005FBA82 /* Smartie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3E8BE41C40A6A9005FBA82 /* Build configuration list for PBXNativeTarget "Smartie" */;
+			buildPhases = (
+				AE3E8BB81C40A6A9005FBA82 /* Sources */,
+				AE3E8BB91C40A6A9005FBA82 /* Frameworks */,
+				AE3E8BBA1C40A6A9005FBA82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartie;
+			productName = Smartie;
+			productReference = AE3E8BBC1C40A6A9005FBA82 /* Smartie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE3E8BCF1C40A6A9005FBA82 /* SmartieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3E8BE71C40A6A9005FBA82 /* Build configuration list for PBXNativeTarget "SmartieTests" */;
+			buildPhases = (
+				AE3E8BCC1C40A6A9005FBA82 /* Sources */,
+				AE3E8BCD1C40A6A9005FBA82 /* Frameworks */,
+				AE3E8BCE1C40A6A9005FBA82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3E8BD21C40A6A9005FBA82 /* PBXTargetDependency */,
+			);
+			name = SmartieTests;
+			productName = SmartieTests;
+			productReference = AE3E8BD01C40A6A9005FBA82 /* SmartieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE3E8BDA1C40A6A9005FBA82 /* SmartieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3E8BEA1C40A6A9005FBA82 /* Build configuration list for PBXNativeTarget "SmartieUITests" */;
+			buildPhases = (
+				AE3E8BD71C40A6A9005FBA82 /* Sources */,
+				AE3E8BD81C40A6A9005FBA82 /* Frameworks */,
+				AE3E8BD91C40A6A9005FBA82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3E8BDD1C40A6A9005FBA82 /* PBXTargetDependency */,
+			);
+			name = SmartieUITests;
+			productName = SmartieUITests;
+			productReference = AE3E8BDB1C40A6A9005FBA82 /* SmartieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3E8BB41C40A6A9005FBA82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kelly Coffey";
+				TargetAttributes = {
+					AE3E8BBB1C40A6A9005FBA82 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AE3E8BCF1C40A6A9005FBA82 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AE3E8BBB1C40A6A9005FBA82;
+					};
+					AE3E8BDA1C40A6A9005FBA82 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AE3E8BBB1C40A6A9005FBA82;
+					};
+				};
+			};
+			buildConfigurationList = AE3E8BB71C40A6A9005FBA82 /* Build configuration list for PBXProject "Smartie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE3E8BB31C40A6A9005FBA82;
+			productRefGroup = AE3E8BBD1C40A6A9005FBA82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE3E8BBB1C40A6A9005FBA82 /* Smartie */,
+				AE3E8BCF1C40A6A9005FBA82 /* SmartieTests */,
+				AE3E8BDA1C40A6A9005FBA82 /* SmartieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3E8BBA1C40A6A9005FBA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3E8BF01C40A71F005FBA82 /* Launch Screen.storyboard in Resources */,
+				AE3E8BEE1C40A6D3005FBA82 /* Main.storyboard in Resources */,
+				AE3E8BC71C40A6A9005FBA82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3E8BCE1C40A6A9005FBA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3E8BD91C40A6A9005FBA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3E8BB81C40A6A9005FBA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3E8BC21C40A6A9005FBA82 /* ViewController.swift in Sources */,
+				AE3E8BC01C40A6A9005FBA82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3E8BCC1C40A6A9005FBA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3E8BD51C40A6A9005FBA82 /* SmartieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3E8BD71C40A6A9005FBA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3E8BE01C40A6A9005FBA82 /* SmartieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE3E8BD21C40A6A9005FBA82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3E8BBB1C40A6A9005FBA82 /* Smartie */;
+			targetProxy = AE3E8BD11C40A6A9005FBA82 /* PBXContainerItemProxy */;
+		};
+		AE3E8BDD1C40A6A9005FBA82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3E8BBB1C40A6A9005FBA82 /* Smartie */;
+			targetProxy = AE3E8BDC1C40A6A9005FBA82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE3E8BE21C40A6A9005FBA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE3E8BE31C40A6A9005FBA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE3E8BE51C40A6A9005FBA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = Smartie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.smartie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AE3E8BE61C40A6A9005FBA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Smartie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.smartie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AE3E8BE81C40A6A9005FBA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartie.app/Smartie";
+			};
+			name = Debug;
+		};
+		AE3E8BE91C40A6A9005FBA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartie.app/Smartie";
+			};
+			name = Release;
+		};
+		AE3E8BEB1C40A6A9005FBA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smartie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE3E8BEC1C40A6A9005FBA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smartie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3E8BB71C40A6A9005FBA82 /* Build configuration list for PBXProject "Smartie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3E8BE21C40A6A9005FBA82 /* Debug */,
+				AE3E8BE31C40A6A9005FBA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3E8BE41C40A6A9005FBA82 /* Build configuration list for PBXNativeTarget "Smartie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3E8BE51C40A6A9005FBA82 /* Debug */,
+				AE3E8BE61C40A6A9005FBA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3E8BE71C40A6A9005FBA82 /* Build configuration list for PBXNativeTarget "SmartieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3E8BE81C40A6A9005FBA82 /* Debug */,
+				AE3E8BE91C40A6A9005FBA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3E8BEA1C40A6A9005FBA82 /* Build configuration list for PBXNativeTarget "SmartieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3E8BEB1C40A6A9005FBA82 /* Debug */,
+				AE3E8BEC1C40A6A9005FBA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3E8BB41C40A6A9005FBA82 /* Project object */;
+}

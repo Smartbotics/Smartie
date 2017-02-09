@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Smartie" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" alpha="0.5" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Smartie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfT-9i-ZhR">
+                                <rect key="frame" x="20" y="20" width="560" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="128" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="UQR-G7-N1D">
+                                <rect key="frame" x="18" y="285" width="564" height="31"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <action selector="DimmerSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ect-Lg-s1O"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Checking System Requirements" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuY-3g-FC2">
+                                <rect key="frame" x="20" y="67" width="560" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVk-Su-7Sj">
+                                <rect key="frame" x="265" y="398" width="71" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Scan"/>
+                                <connections>
+                                    <action selector="Scan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pVG-ZY-EK7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UQR-G7-N1D" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0Sz-s5-mw4"/>
+                            <constraint firstItem="jVk-Su-7Sj" firstAttribute="top" secondItem="UQR-G7-N1D" secondAttribute="bottom" constant="81" id="9TR-nf-PEi"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="hfT-9i-ZhR" secondAttribute="leading" id="FLy-qB-Qoa"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="nuY-3g-FC2" secondAttribute="leading" id="HIM-Ia-486"/>
+                            <constraint firstItem="hfT-9i-ZhR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Iph-63-E53"/>
+                            <constraint firstItem="nuY-3g-FC2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="NqV-jY-oXp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hfT-9i-ZhR" secondAttribute="trailing" id="Sqn-I2-J0U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nuY-3g-FC2" secondAttribute="trailing" id="Ym3-qy-smu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UQR-G7-N1D" secondAttribute="trailing" id="i2v-DZ-EcR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="UQR-G7-N1D" secondAttribute="leading" id="nIF-eW-7ka"/>
+                            <constraint firstItem="jVk-Su-7Sj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uYD-hK-cai"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Dimmer" destination="UQR-G7-N1D" id="dKZ-1q-OPv"/>
+                        <outlet property="statusLabel" destination="nuY-3g-FC2" id="wnW-6S-GV6"/>
+                        <outlet property="titleLabel" destination="hfT-9i-ZhR" id="CHz-8M-2cs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="294"/>
+        </scene>
+    </scenes>
+</document>
